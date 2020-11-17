@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho|Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Calligraffitti|Chewy|Coiny|Covered+By+Your+Grace|Dancing+Script|Gloria+Hallelujah|Grand+Hotel|Itim|Kalam|Kaushan+Script|Marck+Script|Rancho|Satisfy|Tangerine|Tillana|Yellowtail');
+@font-face{
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Coiny', cursive;
+    font-family: 'Itim', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Yellowtail', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Chewy', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Bangers', cursive;
+    font-family: 'Tangerine', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Rancho', cursive;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Tillana', cursive;
+    font-family: 'Grand Hotel', cursive;
+}
+
+h1{
+    font-family: 'Bangers', cursive;
+    text-shadow: 5px 5px 3px #ccc;
+}
+h1:hover{
+    color: red;
+}
+/*body{
+    background-color: #cccccc;
+    color: white;
+    background-image: url('../img/Painel-Decorativo-Ambi-Textura-Quartz.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;se a imagem vai rolar, padrão: scroll
+    background-position: left bottom;
+    background: white url('../img/Painel-Decorativo-Ambi-Textura-Quartz.jpg') no-repeat fixed left bottom;pode resumir
+}*/
+
+p{
+    height: 100px;
+    background-color: #BCBCBC;
+    margin: 25px;
+    margin-bottom: -15px;
+    text-align: justify;
+    border: medium solid #0F0;
+    border-top: medium dotted #0F0;
+    border-bottom: medium dotted #0F0;
+    border-radius: 10px;
+    /*font-family: "Indie Flower";*/
+    font-family: "Gloria Hallelujah";
+}
+p:hover{
+    height: 150px;
+    transition:height 2s;
+    font-size: 1.1em;
+}
+/*EDITAR LINKS SEMPRE NESTA ORDEM*/
+a:link{
+    color: black;
+    text-decoration: none;
+    border-style: inset;
+    border-width: thick;
+    border-radius: 10px;
+}
+a:visited{
+    color: #ccc;
+    text-decoration: none
+}
+a:hover{
+    color: #555;
+    text-decoration: underline;
+    background-color: #FF0000;
+}
+a:active{
+    color: #FF0000;
+    text-decoration: none;
+}
+/*************************************************************************/
+
+/* LISTA 
+list-style-type -> define o tipe de marcador
+list-style-image -> define uma imagem como marcador
+é aplicado no <ul> ou <ol>
+
+*/
+
+article{
+    width: 80%;
+    margin: 0 auto;
+    border: thin solid #000;
+    padding: 5%;
+}
+
+div{
+    width: 85%;
+    margin: 0 auto;
+    border: thin solid #000;
+    padding: 2%;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.esquerda{
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.direita{
+    float: right;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.centralizar-texto{
+    text-align: center;
+}
